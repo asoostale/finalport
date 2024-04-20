@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>a&nbsp;soo's&nbsp;tale</title>
+    <title>주수영 | 백엔드</title>
     <meta name="description" content="포트폴리오">
     <meta name="author" content="asoostale"/>
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="css/style.css">
-    <!--favicon-->
+
     <link rel="shortcut icon" a href="images/temp.ico" type="image/x-icon">
-    <!--OG Open Graph Data-->
+
     <meta property="og:title" content="asoo's tale"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="배포 후 생성된 url">
     <meta property="og:imag" content="배포 후 생성된 이미지 url">
-    <!--Google Font-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
           rel="stylesheet">
-    <!--아이콘사용 fontAwesome-->
+
     <script src="https://kit.fontawesome.com/c7391397c1.js" crossorigin="anonymous"></script>
-    <!--defer 옵션 중요. 안 읽어도 사용자에게 보여줄 수 있다-->
+
     <script type="module" src="js/main.js" defer></script>
     <script type="module" src="js/projects.js" defer></script>
     <script type="module" src="js/active_menu.js" defer></script>
@@ -30,17 +30,15 @@
 <!--header-->
 <header class="header ">
     <div class="header__logo">
-        <img class="header__logo__img" src="images/temp.ico" alt="Logo">
-        <h1 class="header__logo__title"><a href="https://github.com/asoostale"> a soo's tale</a></h1>
+        <h1 class="header__logo__title">🌳 주수영 | 포트폴리오</h1>
     </div>
     <nav class="header__nav">
         <ul class="header__menu">
-            <li><a class="header__menu__item active" href="#home">HOME</a></li>
-            <li><a class="header__menu__item" href="#about">ABOUT</a></li>
-            <li><a class="header__menu__item" href="#skills">SKILLS</a></li>
-            <li><a class="header__menu__item" href="#work">MY WORK</a></li>
-            <li><a class="header__menu__item" href="#testimonial">추천서</a></li>
-            <li><a class="header__menu__item" href="#contact">CONTACT ME</a></li>
+            <li><a class="header__menu__item active" style="color: #1b1e26" href="#home">홈</a></li>
+            <li><a class="header__menu__item" style="color: #1b1e26" href="#about">프로젝트</a></li>
+            <li><a class="header__menu__item" style="color: #1b1e26" href="#skills">스킬</a></li>
+            <li><a class="header__menu__item" style="color: #1b1e26" href="#testimonial">노력</a></li>
+            <li><a class="header__menu__item" style="color: #1b1e26" href="#contact">연락처</a></li>
         </ul>
     </nav>
     <button class="header__toggle" aria-label="navigation menu toggle">
@@ -55,68 +53,106 @@
         <div class="home__container">
             <img class="home__avatar" src="images/favicon.ico" alt="main photo"/><br>
             <h2 class="home__title"><strong class="home__title--strong"> Hello! World!</strong></h2>
-            <p class="home__description">꿈꾸는 개발자 주수영입니다 🤗</p>
+            <p class="home__description">노력하고 공부하는 백엔드 개발자 지망생 주수영입니다 🤗</p><br/>
+            <p> ✔️ 남들보다 조금은 늦은 나이에 시작한만큼 하루하루 소중한 마음가짐으로 공부하고 있습니다! </p>
+            <p> ✔️ 5개월간 독학하여 개인프로젝트를 끝까지 마무리 한 경험이 있습니다. </p>
+            <p> ✔️ 실무에서 바로 투입될 수 있도록 실무 위주의 공부를 하였습니다. </p>
+            <p> ✔️ 건강한 Runner로서 마라톤과 수영을 즐겨하며 신체와 정신이 건강합니다. </p>
             <a class="home__contact" href="#contact">contact me</a>
         </div>
     </section>
 
     <!-- about -->
     <section id="about" class="section max-container">
-        <h2 class="title">About me</h2>
+        <h2 class="title">CRUID를 통한 인터넷 커뮤니티 사이트(개인)</h2>
         <p class="description">
-            개발자 주수영입니다.
+            ● 'PostBox' 라는 CRUID 기반 인터넷 커뮤니티 사이트를 개발하였습니다.
         </p>
-        <ul class="majors">
-            <li class="major">
-                <i class="fa-brands fa-java major__icon"></i>
-                <p class="major__title">front-end</p>
-                <p>HTML, CSS, JAVASCRIPT, Svelt</p>
-            </li>
-            <li class="major">
-                <i class="fa-brands fa-html5 major__icon"></i>
-                <p class="major__title">MOBILE</p>
-                <p>Android, flutter, kotlin</p>
-            </li>
-            <li class="major">
-                <i class="fa-brands fa-js major__icon"></i>
-                <p class="major__title">back-end</p>
-                <p>java, SpringBoot, rest apis, Docker, AWS, </p>
-            </li>
-        </ul>
+        <p class="description">
+            ● 엔터티 설계 ~ 뷰템플릿까지 1인 벡엔드, 프론트엔드의 개발을 하였습니다.
+        </p>
+
+        <a link rel="stylesheet" href="https://github.com/asoostale/PostBox" class="contact__link">
+            https://github.com/asoostale/PostBox </a><br/><br/><br/><br/>
+        <개인프로젝트 메인화면>
+            <img src="images/개인프로젝트.png" alt="개인프로젝트" class="project__img"><br/><br/><br/><br/><br/>
+            <h2 class="title">포트폴리오 웹사이트</h2>
+            <p class="description-port">● 백엔드 개발자 지망생이지만, <strong>기본적인 프론트엔드의 학습을 위해 HTML,CSS, JavaScript를 학습하며</strong>
+                개인 포트폴리오 웹사이트를
+                개발하였습니다.</p>
+            <p class="description-port">● 프론트엔드의 HTML, CSS, JAVASCRIPT의 경우<strong> 부트스트랩은 전혀 사용하지 않았고</strong> 드림코딩과
+                1분코딩, 인프런의 강의를 통해
+                체계적으로 학습하였습니다.
+            </p>
+            <p class="description-port">● 반응형 웹사이트의 시작인 Grid와 Flex 개념에대해 이해하고 있습니다. 본 포트폴리오와 개인프로젝트 또한 <strong> 반응형
+                웹사이트로 </strong>개발하였습니다.
+            </p>
+            <br/><br/><br/><br/>
+            <포트폴리오 메인화면>
+                <img src="images/포트폴리오.png" alt="포트폴리오" class="project__img-port"><br/><br/><br/><br/><br/>
+
     </section>
 
     <!--skills-->
     <section id="skills" class="section">
         <div class="max-container">
-            <h2 class="title">My Skill</h2>
-            <p class="description">skill & attribute</p>
-            <p>동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세.</p>
+            <h2 class="title">Skill</h2>
+
             <div class="skills">
                 <section class="skills__coding">
-                    <h3 class="skills__title">Coding skills</h3>
                     <ul>
+
                         <li class="bar">
-                            <div class="bar__metadata"><span>HTML</span><span>30%</span></div>
+                            <div class="bar__metadata"><span
+                                    style="font-weight: bolder">SpringBoot</span><span>80%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span style="font-weight: bolder">JPA</span><span>90%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span style="font-weight: bolder">QueryDsl</span><span>60%</span>
+                            </div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 60%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span
+                                    style="font-weight: bolder">Spring Security</span><span>70%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span
+                                    style="font-weight: bolder">Thymeleaf</span><span>70%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>Docker</span><span>30%</span></div>
                             <div class="bar__bg">
                                 <div class="bar__value" style="width: 30%"></div>
                             </div>
                         </li>
                         <li class="bar">
-                            <div class="bar__metadata"><span>CSS</span><span>10%</span></div>
+                            <div class="bar__metadata"><span>HTML</span><span>50%</span></div>
                             <div class="bar__bg">
-                                <div class="bar__value" style="width: 10%"></div>
+                                <div class="bar__value" style="width: 50%"></div>
                             </div>
                         </li>
                         <li class="bar">
-                            <div class="bar__metadata"><span>SpringBoot</span><span>80%</span></div>
+                            <div class="bar__metadata"><span>CSS</span><span>40%</span></div>
                             <div class="bar__bg">
-                                <div class="bar__value" style="width: 80%"></div>
-                            </div>
-                        </li>
-                        <li class="bar">
-                            <div class="bar__metadata"><span>JPA</span><span>80%</span></div>
-                            <div class="bar__bg">
-                                <div class="bar__value" style="width: 80%"></div>
+                                <div class="bar__value" style="width: 40%"></div>
                             </div>
                         </li>
                         <li class="bar">
@@ -125,153 +161,62 @@
                                 <div class="bar__value" style="width: 20%"></div>
                             </div>
                         </li>
-                        <li class="bar">
-                            <div class="bar__metadata"><span>QueryDsl</span><span>60%</span></div>
-                            <div class="bar__bg">
-                                <div class="bar__value" style="width: 60%"></div>
-                            </div>
-                        </li>
+
                     </ul>
                 </section>
                 <section class="skills__tools"> <!-- 사용툴 섹션을 이동 -->
                     <h3 class="skills__title">사용 툴</h3>
                     <ul>
-                        <li>인텔리제이</li>
-                        <li>깃</li>
-                        <li>dbgrip</li>
+                        <li>IntelliJ</li>
+                        <li>GitHub</li>
+                        <li>DataGrip</li>
                         <li>postman</li>
-                        <li>vue</li>
+                        <li>WebStorm</li>
+                        <li>Visual Studio Code</li>
                     </ul>
                 </section>
                 <section class="skills__etc">
-                    <h3 class="skills__title">etc</h3>
+                    <h3 class="skills__title">레거시 프로젝트</h3>
                     <ul>
-                        <li>git</li>
-                        <li>jpa</li>
-                        <li>축구</li>
+                        <li>Maven</li>
+                        <li>JSP</li>
+                        <li>MyBatis</li>
+                        <li>JDBC template</li>
                     </ul>
                 </section>
             </div>
         </div>
     </section>
 
-    <!--work-->
-    <section id="work" class="section">
-        <div class="max-container">
-            <h2 class="title">My work</h2>
-            <p class="description">Projects</p>
-            <ul class="categories">
-                <li>
-                    <button class="category category--selected" data-category="all">
-                        All<span class="category__count">8</span></button>
-                </li>
-                <li>
-                    <button class="category" data-category="front-end">
-                        front-end<span class="category__count">3</span></button>
-                </li>
-                <li>
-                    <button class="category" data-category="back-end">
-                        back-end<span class="category__count">3</span></button>
-                </li>
-                <li>
-                    <button class="category" data-category="mobile">
-                        mobile<span class="category__count">2</span></button>
-                </li>
-            </ul>
-            <ul class="projects">
-                <li class="project" data-type="front-end">
-                    <a href="#" target="_blank">
-                        <img src="images/projects/project1.webp" class="project__img" alt="손흥민"/>
-                        <div class="project__metadata">
-                            <h3 class="project__title">Project #1</h3>
-                            <p> 손흥민 갓</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="project" data-type="front-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project2.webp" class="project__img" alt="손흥민"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #2</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="back-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project3.webp" class="project__img" alt="project3"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #3</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="back-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project4.webp" class="project__img" alt="project4"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #4</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="front-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project5.webp" class="project__img" alt="project5"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #5</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="back-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="/images/projects/project6.webp" class="project__img" alt="project6"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #6</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="mobile"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project7.webp" class="project__img" alt="project7"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #7</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a></a></li>
-                <li class="project" data-type="back-end"><a href="#" target="_blank"><a href="#" target="_blank">
-                    <img src="images/projects/project8.webp" class="project__img" alt="project8"/>
-                    <div class="project__metadata">
-                        <h3 class="project__title">Project #8</h3>
-                        <p> 손흥민 갓</p>
-                    </div>
-                </a>
-                </a>
-                </li>
-            </ul>
 
-        </div>
-    </section>
-    <!--추천서-->
+    <!--노력-->
     <section id="testimonial" class="section max-container">
-        <h2 class="title">추천서</h2>
-        <p class="description">저를 추천해주는 사람들입니다. 이 맛에 삽니다.</p>
+        <h2 class="title-hard">프로그래머가 되기 위한 노력</h2>
+        <p class="description">생계로 인해 부트캠프나 국비학원을 수료하지는 못했지만 혼자 묵묵히 독학하며 조금씩 조금씩 성장하는 기분으로
+            공부하였습니다. 만 33세의 나이, 최종학력 고졸(현 한국방통대 컴퓨터과학과 2학년 편입)로서 IT 개발직군에 도전하기에는 다소 늦은 감이 있고 두려움도 많습니다. 하지만 코딩을 공부할 수록 성장 하는 기분과
+            업계의 긍정적인 에너지가 모든 불안한 감정들을 이겨낼 수 있게 합니다. 저는 개발자로서 첫 발걸음을 떼기 위해 무엇이든 공부할 자신이 있습니다.
+        </p><br/><br/><br/><br/><br/><br/><br/>
+        <h2 style="font-weight: normal; font-size: 20px; margin-bottom: 30px; margin-left: -70px">[수료증]</h2>
+
         <ul class="testimonials">
-            <li class="testimonial"><img src="images/a.png" class="testimonial__img" alt="사람1">
-                <div class="testimonial__bubble">
-                    <p>
-                        삼촌 사랑해요!
-                    </p>
-                    <p><a href="#" class="testimonial__bubble__name"/>이아(조카, 만 4세)</p>
-                </div>
-            </li>
-            <li class="testimonial"><img src="images/cat.png" class="testimonial__img" alt="사람2">
-                <div class="testimonial__bubble">
-                    <p>
-                        야용~ 이 양반 추천해~</p>
-                    <p>
-                        <a href="#" class="testimonial__bubble__name"/>길냥이(우연히 봄, 매우 귀여움)</p>
-                </div>
-            </li>
-            <li class="testimonial"><img src="images/bro.png" class="testimonial__img" alt="사람3">
-                <div class="testimonial__bubble">
-                    <p>
-                        제 조카에요 열심히 합니다.</p>
-                    <p>
-                        <a href="#" class="testimonial__bubble__name"/>김대철(42세, 노총각, 여자친구 구함)</p>
-                </div>
-            </li>
+            <li class="testimonial"><img src="images/jpa.png" class="testimonial__img" alt="jpa"></li>
+            <li class="testimonial"><img src="images/db.png" class="testimonial__img" alt="db1"></li>
+            <li class="testimonial"><img src="images/jpa2.png" class="testimonial__img" alt="jpa2"></li>
+            <li class="testimonial"><img src="images/mvc1.png" class="testimonial__img" alt="mvc1"></li>
+            <li class="testimonial"><img src="images/jsp.png" class="testimonial__img" alt="jsp"></li>
+            <li class="testimonial"><img src="images/http.png" class="testimonial__img" alt="http"></li>
+            <li class="testimonial"><img src="images/data%20jpa.png" class="testimonial__img" alt="데이터jpa"></li>
+            <li class="testimonial"><img src="images/basic.png" class="testimonial__img" alt="기본"></li>
+            <li class="testimonial"><img src="images/db2.png" class="testimonial__img" alt="db2"></li>
+            <li class="testimonial"><img src="images/mvc2.png" class="testimonial__img" alt="mvc2"></li>
+            <li class="testimonial"><img src="images/git.png" class="testimonial__img" alt="git"></li>
+            <li class="testimonial"><img src="images/css.png" class="testimonial__img" alt="css/grid/flex"></li>
+            <li class="testimonial"><img src="images/css2.png" class="testimonial__img" alt="css2"></li>
+            <li class="testimonial"><img src="images/js4.png" class="testimonial__img" alt="js"></li>
+            <li class="testimonial"><img src="images/port.png" class="testimonial__img" alt="port"></li>
+            <li class="testimonial"><img src="images/querydsl.png" class="testimonial__img" alt="query"></li>
+
+
         </ul>
     </section>
     <!--Arrow Up-->
@@ -284,27 +229,25 @@
 <footer id="contact">
     <div class="max-container">
         <div class="footer">
-            <h2 class="footer__title">Let&#39;s talk</h2>
+            <h2 class="footer__title">연락처</h2>
+
             <p class="footer__description">asoostale@naver.com</p>
+            <p class="footer__description">010-3061-9579</p>
+            <ul class="contact__links">
+                <li>
+                    <a class="contact__link"
+                       href="https://github.com/asoostale" target="_blank" title="my git">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+
+            </ul>
         </div>
-        <ul class="contact__links">
-            <li>
-                <a class="contact__link"
-                   href="https://github.com/asoostale" target="_blank" title="my git">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-            <li>
-                <a class="contact__link"
-                   href="https://github.com/asoostale" target="_blank" title="my linked">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
+
         <p>©asoostale - All rights reserved</p>
+
     </div>
 </footer>
-
 
 
 </body>
